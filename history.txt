@@ -1,3 +1,4 @@
+    40  clear
    41  wget https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
    42  head wilders.csv
    43  head -n wilders.csv
@@ -41,68 +42,10 @@
    81  ls -l
    82  cat Biarritz_JavaScript.csv Toulouse_JavaScript.csv | > javascript_biarritz_toulouse.csv
    83  ls -l
-   84  cat Biarritz_JavaScript.csv Toulouse_JavaScript.csv | cp > javascript_biarritz_toulouse.csv
-   85  cp --help
-   86  cat Biarritz_JavaScript.csv Toulouse_JavaScript.csv | cp -T > javascript_biarritz_toulouse.csv
-   87  cat Biarritz_JavaScript.csv Toulouse_JavaScript.csv | cp [-T] > javascript_biarritz_toulouse.csv
-   88  cat Biarritz_JavaScript.csv Toulouse_JavaScript.csv | cp [-T] javascript_biarritz_toulouse.csv
-   89  cat Biarritz_JavaScript.csv Toulouse_JavaScript.csv | cp [-T javascript_biarritz_toulouse.csv]
-   90  cat Biarritz_JavaScript.csv Toulouse_JavaScript.csv | sort > javascript_biarritz_toulouse.csv
-   91  ls -l
-   92  rm Danish.csv
-   93  rm languages.txt
-   94  rm Norwegian.csv
-   95  rm Prenoms.csv
-   96  rm Swedish.csv
-   97  rm Unix_commands.md
-   98  ls -l
-   99  history
+
 franck@LabUbu:~$ tail php_france_2019.csv
 97
-franck@LabUbu:~$ tail Biarritz.csv
-William,Gaudin,Biarritz,France,2019,Java
-Léon,Jacquet,Biarritz,France,2019,JavaScript
-Gilles,Louis,Biarritz,France,2019,Java
-Laetitia,Schneider,Biarritz,France,2019,JavaScript
-Madeleine,Coste,Biarritz,France,2019,Java
-Inès,Descamps,Biarritz,France,2019,PHP
-Roger,Normand,Biarritz,France,2019,PHP
-Élisabeth,Laporte,Biarritz,France,2019,PHP
-Laurent,"Le Roux",Biarritz,France,2019,PHP
-Thérèse,Guyot,Biarritz,France,2019,JavaScript
-franck@LabUbu:~$ tail Biarritz_JavaScript.csv
-Alphonse,Leleu,Biarritz,France,2019,JavaScript
-Laurence,Lemaire,Biarritz,France,2019,JavaScript
-Marcel,Olivier,Biarritz,France,2019,JavaScript
-Victor,Lopez,Biarritz,France,2019,JavaScript
-Michel,David,Biarritz,France,2019,JavaScript
-Théodore,Bousquet,Biarritz,France,2019,JavaScript
-Andrée,Berthelot,Biarritz,France,2019,JavaScript
-Léon,Jacquet,Biarritz,France,2019,JavaScript
-Laetitia,Schneider,Biarritz,France,2019,JavaScript
-Thérèse,Guyot,Biarritz,France,2019,JavaScript
-franck@LabUbu:~$ tail Toulouse.csv
-Camille,Raymond,Toulouse,France,2019,PHP
-Sébastien,Lefort,Toulouse,France,2019,Java
-Noël,Noel,Toulouse,France,2019,JavaScript
-Anastasie,Roux,Toulouse,France,2019,PHP
-Danielle,Perrin,Toulouse,France,2019,JavaScript
-Éric,Meunier,Toulouse,France,2019,JavaScript
-Anaïs,Lambert,Toulouse,France,2019,Java
-Claude,Samson,Toulouse,France,2019,JavaScript
-Guillaume,Perrin,Toulouse,France,2019,Java
-Richard,Rodrigues,Toulouse,France,2019,PHP
-franck@LabUbu:~$ tail Toulouse_JavaScript.csv
-Olivier,Dufour,Toulouse,France,2018,JavaScript
-Alexandre,"Da Silva",Toulouse,France,2019,JavaScript
-Mathilde,Descamps,Toulouse,France,2019,JavaScript
-Céline,Fabre,Toulouse,France,2019,JavaScript
-Raymond,Bouvet,Toulouse,France,2019,JavaScript
-Danielle,Lecomte,Toulouse,France,2019,JavaScript
-Noël,Noel,Toulouse,France,2019,JavaScript
-Danielle,Perrin,Toulouse,France,2019,JavaScript
-Éric,Meunier,Toulouse,France,2019,JavaScript
-Claude,Samson,Toulouse,France,2019,JavaScript
+
 franck@LabUbu:~$ tail javascript_biarritz_toulouse.csv
 Sébastien,Ferreira,Biarritz,France,2018,JavaScript
 Théodore,Bousquet,Biarritz,France,2019,JavaScript
@@ -115,3 +58,5 @@ Victor,Lopez,Biarritz,France,2019,JavaScript
 Vincent,Sanchez,Biarritz,France,2019,JavaScript
 Yves,Marie,Biarritz,France,2019,JavaScript
 franck@LabUbu:~$ 
+
+
